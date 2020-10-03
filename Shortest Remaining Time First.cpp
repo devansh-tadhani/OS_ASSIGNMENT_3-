@@ -69,7 +69,7 @@ void findavgTime(Process proc[], int n) {
    FILE *fp = Outputfile();
    fputs(p,fp);
    out <<"Processes" <<","<<"Arrival Time"<<","<<"Brust Time" << "," << "Waiting Time" << "," << "Turn Around Time" << endl;
-   cout << "Processes " << " Arrival time " << " Brust time " << " Waiting time " << " Turn around time\n";
+   cout << "Processes " << " Arrival time :-" << " Brust time :-" << " Waiting time :-" << " Turn around time:-\n";
    for (int i = 0; i < n; i++) {
       total_wt = total_wt + wt[i];
       total_tat = total_tat + tat[i];
